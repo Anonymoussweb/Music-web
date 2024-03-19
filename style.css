@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: black;
+    max-width:1362px;
+    position: relative;
+}
+
+.container .side {
+    width: 20%;
+    background-color: rgba(31, 30, 30, 0.715);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    padding-left: 3vw;
+}
+
+.container .side .img {
+    width: 70%;
+    height: 50px;
+    display: flex;
+    color: white;
+    padding: 5px;
+    background-color: rgb(53, 53, 53);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container .side .img h2 {
+    font-size: 1vw;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+
+.container .side .img img {
+    width: 60px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.container .side .side-ul h2 {
+    font-size: small;
+    color: grey;
+    margin-bottom: 15px;
+}
+
+.container .side .side-ul ul li {
+    margin-bottom: 5px;
+}
+
+.container .side .side-ul ul li a {
+    font-size: smaller;
+    color: white;
+}
+
+.container .main {
+    width: 80%;
+    height: 100vh;
+}
+
+/* ======================NAV======================== */
+.main .nav {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2vw;
+    margin-top: 10px;
+}
+
+.main .nav .navr {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.main .nav .navr a {
+    font-size: smaller;
+    margin: 0 10px;
+}
+
+.main .nav .navr input {
+    width: 70%;
+    outline: none;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    height: 20px;
+    padding: 15px;
+}
+
+.main .nav .navl {
+    width: 30%;
+    height: 40px;
+    display: flex;
+    gap: 8px;
+    justify-content: end;
+}
+
+.main .nav .navl i {
+    color: white;
+    line-height: 40px;
+}
+
+.main .nav .navl .img {
+    display: flex;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(36, 36, 36);
+    justify-content: space-between;
+    border-radius: 3px;
+    padding: 3px 5px;
+}
+
+.main .nav .navl .img img {
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.main .nav .navl .img h2 {
+    font-size: 1vw;
+    line-height: 33px;
+    margin-right: 10px;
+    color: white;
+}
+
+/* ========================Main2========================= */
+.main2 {
+    width: 100%;
+    padding-left: 2vw;
+    display: flex;
+}
+
+.main2 .main2left {
+    color: white;
+    margin-top: 10px;
+}
+
+.main2 .main2left .left {
+    display: flex;
+}
+
+.main2 .main2left .left .main2left-1 p {
+    margin: 30px 0 50px 5px;
+}
+
+.main2 .main2left .left .main2left-1 button {
+    margin: 20px 0;
+    background-color: purple;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+}
+
+.main2 .main2left .left .main2left-1 .span {
+    color: white;
+    display: inline-flex;
+    margin-left: 20px;
+}
+
+.main2 .main2left .left .main2left-1 .span i {
+    font-size: 30px;
+    padding: 5px;
+}
+
+.main2 .main2left .left .main2left-1 h1 {
+    font-size: 3vw;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.main2 .main2left .left img {
+    width: 250px;
+    border-radius: 5px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 90px;
+    margin-left: 40px;
+}
+.cards{
+    width: 250px;
+    border-radius: 5px;
+    padding-left: 8px;
+    background-color: rgb(37, 36, 36);
+}
+.cards div {
+    display: flex;
+    color: white;
+    margin: 5px;
+}
+
+.indiv {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.one{
+    background-color: rgba(243, 5, 5, 0.511);
+}
+.two{
+    background-color:rgba(127, 255, 212, 0.582);
+}
+.three{
+    background-color: rgb(151, 112, 61);
+}
+.four{
+    background-color: rgb(62, 62, 62);
+}
+.five{
+    background-color: rgba(15, 15, 168, 0.646);
+}
+.six{
+    background-color: rgba(58, 160, 100, 0.584);
+}
+.more{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.playlist{
+    background-color: rgb(37, 36, 36);
+    width: 70%;
+    border-radius: 5px;
+}
+.playcard{
+    display: flex;
+    gap: 10px;
+}
+.list, .see{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    color: white;
+}
+.see{
+    padding: 10px 10px 19px 10px;
+}
+.l-inner{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.l-inner img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+.main2right {
+    width: 35%;
+    height: 450px;
+    background-color: rgb(37, 36, 36);
+    margin: 0 auto;
+    align-self:self-end;
+    border-radius: 5px;
+}
+.main2right img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.pimg{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.pdesc{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+.timeline{
+ display: flex;
+ justify-content: space-between;padding: 0 40px;
+ color: rgba(255, 255, 255, 0.566);
+ margin: 11px 0;
+}
+.line{
+    width: 70%;
+    height: 2px;
+    background-color: aliceblue;
+    align-self: center;
+    position: relative;
+}
+.line::after{
+content: "O";
+background-color: rgb(37, 36, 36);
+position: absolute;
+top: -8px;
+left: 50px;
+}
+.playdiv{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(75, 75, 183);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: larger;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.pl{
+    font-size: 50px;
+}
+.uparr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(75, 75, 183);
+}
+#side{
+    position: relative;
+    transition: all .5s ease;
+}
+#menu{
+    display: none;
+    color: white;
+    font-size: 30px;
+    z-index: 11;
+    cursor: pointer;
+}
+@media screen and (max-width:1120px) {
+    #menu{
+        display: block;
+        color: white;
+        position: absolute;
+        top: 16px;
+        left: -30px;
+    }
+  #side{
+    position: absolute;
+    top: 0;
+    left: -100%;
+  }
+  .container{
+    margin-left: 5%;
+  }
+
+}
+    
+
+
+
+
